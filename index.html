@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <section id="user-input" class="card">
+        <div class="control">
+            <input type="text" id="title" required>
+            <label class="es64e578" for="title">Favorite Movie</label>
+        </div>
+        <div class="wrapper">
+            <div class="inline-controls">
+                <div class="control">
+                    <input type="text" id="extra-name" required>
+                    <label class="yuhj57jk" for="extra-name">Extra Information(Name)</label>
+                </div>
+                <div class="control">
+                    <input type="text" id="extra-value" required>
+                    <label class="eygubh77" for="extra-name">Extra Information(Value)</label>
+                </div>
+            </div>
+        </div>
+        <button class="button btn" id="add-movie-btn">
+            <span>Add Movie</span>
+        </button>
+    </section>
+    <section id="filter" class="card">
+        <label class="" for="filter-title">Filter by Title</label>
+        <input type="text" id="filter-title">
+        <button class="button btn" id="search-btn">Search</button>
+    </section>
+    <ul id="movie-list"></ul>
+    <div id="warning_backdrop">
+        <div id="warning-box">
+            <p>Kindly Check Input Fields to see if not empty as fields CANNOT BE EMPTY</p>
+        </div>
+</div>
+</body>
+</html>
